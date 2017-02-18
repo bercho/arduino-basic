@@ -99,7 +99,7 @@ class Button{
   int _debounceDelay;
   int _reading;
   int _pin;
-  int _lastDebounceTime = 0;
+  unsigned long _lastDebounceTime = 0;
   
   public:
   void Format(int p, int dd);
